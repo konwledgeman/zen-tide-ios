@@ -21,6 +21,10 @@
 		AAA00012 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA10012; };
 		AAA00013 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA10013; };
 		AAA00014 /* ScenePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA10014; };
+		AAA00020 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA10020; };
+		AAA00021 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA10021; };
+		AAA00022 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA10022; };
+		AAA00023 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA10023; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		AAA10013 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		AAA10014 /* ScenePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePickerView.swift; sourceTree = "<group>"; };
 		AAA20001 /* ZenTide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenTide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA10020 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ocean.mp3; sourceTree = "<group>"; };
+		AAA10021 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		AAA10022 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
+		AAA10023 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 				AAA40004 /* Models */,
 				AAA40005 /* ViewModels */,
 				AAA40006 /* Views */,
+				AAA40007 /* Resources */,
 				AAA10003 /* Assets.xcassets */,
 			);
 			path = ZenTide;
@@ -111,6 +120,17 @@
 				AAA10014 /* ScenePickerView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AAA40007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAA10020 /* ocean.mp3 */,
+				AAA10021 /* rain.mp3 */,
+				AAA10022 /* forest.mp3 */,
+				AAA10023 /* fire.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA00003 /* Assets.xcassets in Resources */,
+				AAA00020 /* ocean.mp3 in Resources */,
+				AAA00021 /* rain.mp3 in Resources */,
+				AAA00022 /* forest.mp3 in Resources */,
+				AAA00023 /* fire.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
